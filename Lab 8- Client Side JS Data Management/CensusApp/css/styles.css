@@ -16,7 +16,7 @@ h1 , h2{
     margin-top: 40px;
 }
 .form{
-    gap: 10px;
+    gap: 5px;
     display: grid;
     grid-template-columns: 1fr 4fr;
     align-items : center;

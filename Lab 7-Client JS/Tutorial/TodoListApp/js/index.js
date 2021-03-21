@@ -8,9 +8,10 @@ function addTodo() {
     const title = todoInputBox.value
     if (title.length > 0) {
         const todo = {
-            title,
+            title : title,
             id: Date.now().toString()
         }
+
         todos.push(todo);
         localStorage.setItem('todos', JSON.stringify(todos))
         showTodos()
